@@ -6,4 +6,8 @@ public class Apartamento extends Vivienda {
     super(idInmobiliario, mtCuadrado, direccion, numHabitaciones, numBanios);
   }
 
+  public void mostrarDetalle(){
+    super.mostrarDetalle();
+  }
+
 }

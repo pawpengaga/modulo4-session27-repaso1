@@ -5,7 +5,7 @@ public class Local extends Inmueble {
   // Enum puede ser un tipo o una clase
   // Un enum lo que hace es definir unas constantes (Valores que no van a variar)
 
-  enum tipo {INTERNO, CALLE};
+  public enum tipo {INTERNO, CALLE};
 
   protected tipo tipoLocal;
 

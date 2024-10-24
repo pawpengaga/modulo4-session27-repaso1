@@ -8,7 +8,7 @@ public class Inmueble {
   protected double mtCuadrado;
   protected String direccion;
   // El precio de venta
-  protected long precioVenta;
+  protected double precioVenta;
 
 
   public Inmueble(int idInmobiliario, double mtCuadrado, String direccion) {
@@ -18,8 +18,8 @@ public class Inmueble {
     this.direccion = direccion;
   }
 
-  public long precioVenta(int valorArea){
-    this.precioVenta = (long) this.mtCuadrado * valorArea;
+  public double precioVenta(double valorArea){
+    this.precioVenta = this.mtCuadrado * valorArea;
     return precioVenta;
   }
   
