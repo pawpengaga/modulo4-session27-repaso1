@@ -10,6 +10,9 @@ public enum Calculadora implements Ioperacion {
     public double calcular(double a, double b){
       return a + b;
     }
+
+    // Puede haber tambien sobrecarga de metodos en los enum ._.
+    // public double sumatriple(double a, double b, double c) { return a + b + c; }
   }, RESTA{
     @Override
     public double calcular(double a, double b){
